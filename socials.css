@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(104, 180, 247);
+  background-image: url(trv-mettuspictures/TRU\ LOGO\ 1-BLACK\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Montserrat";
+
+}
+  .Logo img{
+  width: 70%;
+  max-width: 250px;
+  margin: 20px auto;
+  display: block;
+
+}
+.biography{
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 90%;
+}
+
+h2{
+  color: rgb(140, 222, 140);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+p{
+  color: white;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  margin: 10px auto;
+  max-width: 90%;
+  text-align: justify; 
+}
+
+.image-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+
+}
+.image-gallery img{
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.image-gallery img {
+  max-width: 100%;
+}
